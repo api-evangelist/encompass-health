@@ -49,6 +49,12 @@ apis:
     description: >-
       The Encompass Health API provides access to platform services and data for enterprise integration and automation.
 common:
+  - type: Plans
+    url: plans/encompass-health-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/encompass-health-rate-limits.yml
+  - type: FinOps
+    url: finops/encompass-health-finops.yml
   - url: https://www.encompasshealth.com/newsroom
     type: Blog
   - type: DomainSecurity
